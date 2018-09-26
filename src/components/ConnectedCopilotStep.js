@@ -46,8 +46,9 @@ class ConnectedCopilotStep extends Component<Props> {
       name: this.props.name,
       text: this.props.text,
       order: this.props.order,
+      options: this.props.options,
       target: this,
-      wrapper: this.wrapper,
+      wrapper: this.wrapper
     });
   }
 
